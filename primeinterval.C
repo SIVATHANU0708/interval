@@ -5,7 +5,7 @@ int low,high,flag,i;
 printf("enter the two intervals: ");
 scanf("%d %d",&low,&high);
   printf("prime number between %d and %d interval are: ",low,high); 
-if(low<high)
+while(low<high)
 {
 flag=0;
 for(i=2;i<=low/2;++i)
