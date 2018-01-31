@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(0
+int main()
 {
 int low,high,flag,i;
 printf("enter the two intervals: ");
